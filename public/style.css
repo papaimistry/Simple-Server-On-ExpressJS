@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 200px;
+    margin: 30px;
+}
+
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
+    padding: 20px;
+}
+ #line1{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.inputs input{
+    width:368px;
+    height: 50px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    border:10px solid rgba(black, black, black, 0.1);
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn input{
+    width:394px;
+    height: 60px;
+    margin-top: 30px;
+    color: white;
+    background-color: #0077b5;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    -webkit-border-radius:50px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#fPass{
+    color:#0077b5;
+    font-weight: 600;
+}
